@@ -75,93 +75,101 @@
             <h2 class="chefs-title section-title centered">
                 Наші найкращі <span class="accent">шеф-кухарі</span>
             </h2>
-            <ul>
-                <li>
-                    <article>
-                        <img class="chef-photo" src="./images/nastya-chef.jpg" alt="Nastya chef" />
-                        <h3 class="chef-title">Настя</h3>
-                        <p>Привіт, я Настя!</p>
-                        <p>Вже 10 років, я втілюю у життя цікаві та смачні
-                            ідеї.</p>
-                        <p>Я випічу для вас найсмачніші вироби!</p>
+            <ul class="chefs-list">
+                <li class="chefs-item">
+                    <article class="chef-card">
+                        <img
+                         class="chef-photo" 
+                         src="./images/nastya-chef.jpg" 
+                         alt="Nastya chef" />
+                       <div>
+                          <h3 class="chef-title">Настя</h3>
+                          <p class="chef-text">Привіт, я Настя!</p>
+                          <p class="chef-text">Вже 10 років, я втілюю <br />
+                             у життя цікаві та смачні ідеї.</p>
+                          <p class="chef-text">Я випічу для вас <br />
+                             найсмачніші вироби!
+                            </p>
+                       </div>
                     </article>
                 </li>
-            </ul>
-            <ul>
-                <li>
-                    <article>
+                <li class="chefs-item">
+                    <article class="chef-card">
                         <img class="chef-photo" src="./images/vlad-chef.jpg" alt="Vlad chef" />
+                     <div>
                         <h3 class="chef-title">Влад</h3>
-                        <p>Привіт, я Влад!</p>
-                        <p>Мій кондитерський стаж вже 18 років.
+                        <p class="chef-text">Привіт, я Влад!</p>
+                        <p class="chef-text">Мій кондитерський стаж вже 18 років.
                             SHOP BEKERY - це наша любов, з
                             якою ми ділимось кожен раз з Вами
                             через нашу випічку!</p>
-                        <p>Я зроблю для вас унікальну начинку
-                            на будь який смак!</p>
-                    </article>
-                </li>
+                        <p class="chef-text">Я зроблю для вас унікальну начинку на будь який смак!</p>
+                    </div>
+                    </article class="chef-card">
+                </li class="chefs-item">
             </ul>
            </div>
         </section>
         <section class="section" id="formats-section">
             <div class="container">
                 <h2 class="formats-title section-title centered">Формати</h2>
-                <button class="carousel-button" type="button">
-                    <svg width="16" height="16">
-                        <use href="./images/icons.svg#icon-Arrow-1"></use>
-                    </svg>
-                </button>
-                <ul class="formats-list">
-                    <li class="formats-item">
-                        <article class="format-card">
-                            <h3 class="format-title" lang="en">Walrus</h3>
-                            <div class="format-text">
-                                <p>Площа: до 120 м2</p>
-                                <p>Меню: розширене меню</p>
-                                <p>
-                                    Штат: 2 продавці-касири, 2 пекарі, 2
-                                    помічники пекаря, 2 офіціанти-різнороби
-                                </p>
-                                <p>Посадкові місця: є</p>
-                            </div>
-                        </article>
-                    </li>
-                    <li class="formats-item">
-                        <article class="format-card">
-                            <h3 class="format-title" lang="en">Horseshoe</h3>
-                            <div class="format-text">
-                                <p>Площа: до 25 м2</p>
-                                <p>Меню: найпопулярніші позиції меню</p>
-                                <p>
-                                    Штат: 2 продавці-касири, 2 пекарі, 1
-                                    помічник пекаря
-                                </p>
-                                <p>Посадкові місця: відсутні</p>
-                            </div>
-                        </article>
-                    </li>
-                    <li class="formats-item">
-                        <article class="format-card">
-                            <h3 class="format-title" lang="en">Handlebar</h3>
-                            <div class="format-text">
-                                <p>Площа: до 15 м2</p>
-                                <p>Меню: найпопулярніші позиції меню</p>
-                                <p>
-                                    Штат: 1 продавець, 1 пекар, 1 помічник
-                                    пекаря
-                                </p>
-                                <p>Посадкові місця: відсутні</p>
-                            </div>
-                        </article>
-                    </li>
-                </ul>
-        <button class="carousel-button" type="button">
-            <svg width="16" height="16">
-                <use href="./images/icons.svg#icon-Arrow-1"></use>
-            </svg>
-              </button>
-           </div>
+<div class="formats-container">
+                    <button class="carousel-button" type="button">
+                        <svg width="16" height="16">
+                            <use href="./images/icons.svg#icon-Arrow-1"></use>
+                        </svg>
+                    </button>
+                    <ul class="formats-list">
+                        <li class="formats-item">
+                            <article class="format-card">
+                                <h3 class="format-title" lang="en">Walrus</h3>
+                                <div class="format-text">
+                                    <p>Площа: до 120 м2</p>
+                                    <p>Меню: розширене меню</p>
+                                    <p>
+                                        Штат: 2 продавці-касири, 2 пекарі, 2
+                                        помічники пекаря, 2 офіціанти-різнороби
+                                    </p>
+                                    <p>Посадкові місця: є</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="formats-item">
+                            <article class="format-card">
+                                <h3 class="format-title" lang="en">Horseshoe</h3>
+                                <div class="format-text">
+                                    <p>Площа: до 25 м2</p>
+                                    <p>Меню: найпопулярніші позиції меню</p>
+                                    <p>
+                                        Штат: 2 продавці-касири, 2 пекарі, 1
+                                        помічник пекаря
+                                    </p>
+                                    <p>Посадкові місця: відсутні</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="formats-item">
+                            <article class="format-card">
+                                <h3 class="format-title" lang="en">Handlebar</h3>
+                                <div class="format-text">
+                                    <p>Площа: до 15 м2</p>
+                                    <p>Меню: найпопулярніші позиції меню</p>
+                                    <p>
+                                        Штат: 1 продавець, 1 пекар, 1 помічник
+                                        пекаря
+                                    </p>
+                                    <p>Посадкові місця: відсутні</p>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <button class="carousel-button" type="button">
+                        <svg width="16" height="16">
+                            <use href="./images/icons.svg#icon-Arrow-1"></use>
+                        </svg>
+                    </button>
+</div>
+            </div>
          </section>
         <section class="section" id="contact-section">
         <div class="container">
