@@ -464,6 +464,12 @@ justify-content: center;
 background-color: rgba(0, 0, 0, 0.5);
 }
 
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .modal {
 position: relative;
 width: 880px;
