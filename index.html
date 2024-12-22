@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Сучасна пекарня</title>
  <!--Styles-->
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/main.css" />
 </head>
 <body>
     <header class="header">
@@ -126,6 +126,10 @@
                     <ul class="formats-list">
                         <li class="formats-item">
                             <article class="format-card">
+                                <img 
+                                class="format-image"
+                                src="./images/Walrus-format.jpg" 
+                                alt="Walrus format" />
                                 <h3 class="format-title" lang="en">Walrus</h3>
                                 <div class="format-text">
                                     <p>Площа: до 120 м2</p>
@@ -140,6 +144,10 @@
                         </li>
                         <li class="formats-item">
                             <article class="format-card">
+                                <img 
+                                class="format-image"
+                                src="./images/Horseshoe-format.jpg" 
+                                alt="Horseshoe format" />
                                 <h3 class="format-title" lang="en">Horseshoe</h3>
                                 <div class="format-text">
                                     <p>Площа: до 25 м2</p>
@@ -154,6 +162,10 @@
                         </li>
                         <li class="formats-item">
                             <article class="format-card">
+                                 <img 
+                                class="format-image"
+                                src="./images/handlebar-format.jpg" 
+                                alt="Handlebar format" />
                                 <h3 class="format-title" lang="en">Handlebar</h3>
                                 <div class="format-text">
                                     <p>Площа: до 15 м2</p>
@@ -209,8 +221,13 @@
                             required/>
                         </div>
                     
-                        <div class="form-field"><label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
-                            <input class="form-input" type="email" name="user-email" id="user-email" placeholder="Електронна пошта" 
+                        <div class="form-field">
+                            <label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
+                            <input class="form-input" 
+                            type="email" 
+                            name="user-email" 
+                            id="user-email" 
+                            placeholder="Електронна пошта" 
                             required/>
                         </div>
                     
@@ -286,7 +303,7 @@
         </div>
     </div>
     </footer>
-<div class="backdrop">
+<div class="backdrop is-hidden">
 <div class="modal">
     <button class="modal-btn-close" type="button">Close</button>
     <h2>Замовити дзвінок</h2>

@@ -1,0 +1,37 @@
+@import './utils/fonts';
+@import './utils/variables';
+@import './base';
+@import './utils/utils';
+
+.section {
+  padding: 48px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+
+@import './components/advantages-section';
+@import './components/buttons';
+@import './components/carousels';
+@import './components/chefs-section';
+@import './components/contacts-section';
+@import './components/footers';
+@import './components/formats-section';
+@import './components/forms';
+@import './components/header';
+@import './components/hero-section';
+@import './components/links';
+@import './components/modals';
+@import './components/traditions-section';
+
+@import './utils/mixins';
